@@ -63,7 +63,7 @@ export default function TodoList() {
       </div>
       <div className="sec-div">
         <div className="input-div">
-          <input value={todo} placeholder="todo" onChange={changeHandler} />
+          <input value={todo} placeholder="enter todo" onChange={changeHandler} />
           <button onClick={addingToList}>Add to List</button>
         </div>
         <div>
