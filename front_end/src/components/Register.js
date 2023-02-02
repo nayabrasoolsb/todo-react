@@ -34,7 +34,7 @@ export default function Register() {
         password: userData.password,
       }),
     };
-    fetch("http://localhost:3004/api/v1/register", options)
+    fetch("https://todo-app-by-nayab-rasool-server.onrender.com/api/v1/register", options)
       .then((res) => res.json())
       .then((data) => {
         if (data.messege) {

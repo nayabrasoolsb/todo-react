@@ -27,7 +27,7 @@ export default function TodoList() {
       },
     };
     async function fetchTodo() {
-      await fetch("http://localhost:3004/api/v1/todo/fetch", options)
+      await fetch("https://todo-app-by-nayab-rasool-server.onrender.com/api/v1/todo/fetch", options)
         .then((res) => res.json())
         .then((data) => setList(data.todoList))
         .catch((e) => console.log(e));
@@ -48,7 +48,7 @@ export default function TodoList() {
         timeTaken: "",
       }),
     };
-    await fetch("http://localhost:3004/api/v1/todo/create", options)
+    await fetch("https://todo-app-by-nayab-rasool-server.onrender.com/api/v1/todo/create", options)
       .then((res) => res.json())
       .then((data) => data)
       .catch((e) => console.log(e));
