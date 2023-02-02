@@ -1,0 +1,26 @@
+header{
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  line-height: 50px;
+  box-shadow: 3px 3px 8px #ccc;
+}
+header>div{
+  height: 50px;
+  width: 100px;
+  background-color: aquamarine;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 2px;
+}
+header>div:first-child{
+  margin-right: auto;
+  margin-left: 15px;
+  font-size: 20px;
+  background-color: white;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+header>div:last-child{
+  margin-right: 15px;
+}

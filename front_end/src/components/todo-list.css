@@ -1,0 +1,56 @@
+.main-todo h3 {
+  text-align: center;
+}
+
+.main-todo {
+  height: 100vh;
+}
+
+.main-todo {
+  display: flex;
+  padding: 10px;
+}
+
+.main-todo>div:first-child {
+  height: 100vh;
+  background-color: #b5e61d;
+  width: 300px;
+  padding: 10px;
+}
+
+.main-todo .input-div input,
+.main-todo .input-div button {
+  height: 22px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.main-todo .input-div button {
+  padding: 0;
+  height: 42px;
+  width: 100px;
+}
+
+.main-todo .input-div button:hover {
+  background-color: #cccc;
+  transform: 0.3s ease-in-out;
+}
+
+.main-todo>.sec-div table th {
+  width: 100px;
+  background-color: rgb(140, 140, 228, 0.6);
+  padding: 2px;
+  height: 55px;
+}
+
+tr,
+th,
+table {
+  border: 2px solid #cccc !important;
+}
+td{
+  text-align: center;
+  margin-bottom: 4px;
+}

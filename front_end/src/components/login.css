@@ -1,0 +1,42 @@
+.main-login {
+  background-color: blueviolet;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 12px
+}
+.main-login h2{
+  margin: 0 0 8px 0;
+  
+}
+
+.main-login>div {
+  background-color: white;
+  padding: 20px;
+}
+.main-login>div input{
+  margin-top: 10px;
+  height: 30px;
+  width: 95%;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  border-radius: 2px;
+}
+.main-login>div>form>div:last-child{
+  text-align: center;
+  margin-top: 15px;
+}
+.main-login>div>form>div:last-child  button{
+  width: 100px;
+  height: 25px;
+  border: 1px solid #cccc;
+  background-color: yellow;
+  
+}
+.main-login>div>form>div:last-child button:hover{
+  background-color: rgb(236, 236, 123);
+  transform: 0.35s ease-in;
+  color:white;
+  border-radius: 5px;
+  /* border: 2px solid yellow; */
+}
